@@ -10,11 +10,12 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
+* Afrânio Jorge Barbosa Campos Filho (afranio_campos@hotmail.com),
+* Gabriel Rodrigues De Lima (gabrielrodrigues1114@gmail.com),
+* Mariana Gonzalez das Chagas (mariana.chagas.1367211@sga.pucminas.br)
+* Vandeir De Souza Cruz (vandeirsouza321@gmail.com),
+* Victor Filipe Reis Dias (victorfilipe22@icloud.com),
+* Vinicius Menezes Gomes (viniciusggmenezes@gmail.com).
 
 ## Orientador
 
