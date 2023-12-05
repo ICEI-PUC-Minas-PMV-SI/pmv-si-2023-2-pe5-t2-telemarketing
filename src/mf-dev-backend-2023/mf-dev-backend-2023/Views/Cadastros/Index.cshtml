@@ -1,0 +1,47 @@
+﻿@model IEnumerable<mf_dev_backend_2023.Models.Cadastro>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista cadastros</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-success">Criar novo cadastro</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.NomeCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailCliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PlanoAdquirido)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NomeCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailCliente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PlanoAdquirido)
+            </td>
+            <td>
+                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a class="btn btn-primary" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
