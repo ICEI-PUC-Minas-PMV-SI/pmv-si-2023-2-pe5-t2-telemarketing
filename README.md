@@ -6,7 +6,9 @@
 
 `Eixo: 5`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Como escopo do projeto, foi escolhida hipoteticamente uma empresa de telemarketing com abrangência estadual com atuação em diversos setores econômicos, tendo em vista que as empresas desse ramo usualmente são contratadas por outras para exercer o atendimento à clientes.
+
+Deste modo, como se verifica no Projeto e PSI localizados na pasta "DOCS", é observado o o projeto de infraestrutura das redes das empresas e quais as escolhas de equipamentos para o seu funcionamento.
 
 ## Integrantes
 
@@ -19,6 +21,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Orientador
 
-* Nome completo do professor 1
+* Professor Alexandre Teixeira
 
 
